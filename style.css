@@ -18,10 +18,10 @@ body {
 }
 
 /* Titoli */
-h1 {
-    text-align: right;
+h2 {
+    text-align: center;
     margin-bottom: 20px;
-    color: #555;
+    color: rgba(172, 32, 141, 0);
 }
 
 /* Form */
