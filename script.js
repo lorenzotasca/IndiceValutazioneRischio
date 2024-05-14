@@ -106,6 +106,6 @@ function esportaPdf(){
         doc.save('pdf.pdf');
     } else {
         // jsPDF non è definito, gestisci l'errore o notifica l'utente
-        console.error('jsPDF non è definito. Assicurati di aver incluso correttamente la libreria.');
+        console.error('jsPDF undefined');
     }
 }
