@@ -103,7 +103,7 @@ function esportaPdf(){
         const doc = new jsPDF();
         const source = document.querySelector('table');
         doc.autoTable({ html: source });
-        doc.save('tabella.pdf');
+        doc.save('pdf.pdf');
     } else {
         // jsPDF non è definito, gestisci l'errore o notifica l'utente
         console.error('jsPDF non è definito. Assicurati di aver incluso correttamente la libreria.');
